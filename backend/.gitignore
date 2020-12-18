@@ -1,4 +1,5 @@
-venv/
+../venv/
+/venv/
 /core/__pycache__/
 /site_api/__pycache__/
 .vscode/
