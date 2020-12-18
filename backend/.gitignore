@@ -1,5 +1,5 @@
 venv/
-/backend/core/__pycache__/
-/backend/site_api/__pycache__/
+/core/__pycache__/
+/site_api/__pycache__/
 .vscode/
 /__pycache__/
