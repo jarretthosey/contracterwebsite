@@ -10,7 +10,7 @@ class CoreSerializer(object):
 
         for user in self.body:
             user_details = {
-                'id': user.id,
+                # 'id': user.id,
                 'first_name': user.first_name,
                 'last_name': user.last_name,
                 'middle_name': user.middle_name,
@@ -32,7 +32,7 @@ class CoreSerializer(object):
 
         for quote in self.body:
             quote_details = {
-                'id': quote.id,
+                # 'id': quote.id,
                 'date_submitted': quote.date_submitted,
                 'start_date_requested': quote.start_date_requested,
                 'end_date_requested': quote.end_date_requested,
